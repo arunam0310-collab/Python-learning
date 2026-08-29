@@ -38,3 +38,11 @@ len = int(input("Enter the length:"))
 wid = int(input("Enter the width:"))
 print("Area:", len * wid)
 print("Perimeter:", 2 * (len + wid))
+
+# Challenge 6
+
+name=input ("Enter the name:")
+fav_num=int(input ("Enter a number:"))
+print ("Hello", name, "!")
+print ("Your favorite number is", fav_num)
+print("If we add 10 to it, we get", 10+fav_num)
