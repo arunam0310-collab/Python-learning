@@ -13,7 +13,6 @@ print(f"My name is {name}. I am {age} years old and my favourite colour is {fav_
 
 num1 = int(input("Enter number 1: "))
 num2 = int(input("Enter number 2: "))
-
 print("Sum:", num1 + num2)
 print("Difference:", num1 - num2)
 print("Product:", num1 * num2)
@@ -37,6 +36,5 @@ print ("===================")
 
 len = int(input("Enter the length:"))
 wid = int(input("Enter the width:"))
-
 print("Area:", len * wid)
 print("Perimeter:", 2 * (len + wid))
