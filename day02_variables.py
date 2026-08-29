@@ -39,3 +39,9 @@ print("Fahrenheit:", far)
 
 # Challenge 6
 
+sec = int(input("Enter the seconds:"))
+minutes = sec // 60
+re_sec = sec % 60
+
+print("Minutes:", minutes)
+print("Remaining seconds:", re_sec)
