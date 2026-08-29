@@ -32,3 +32,11 @@ print ("City:", city)
 print("Favorite Food:", fav_food)
 print ("Favorite Subject:", fav_sub)
 print ("===================")
+
+# Challenge 5
+
+len = int(input("Enter the length:"))
+wid = int(input("Enter the width:"))
+
+print("Area:", len * wid)
+print("Perimeter:", 2 * (len + wid))
