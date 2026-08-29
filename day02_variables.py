@@ -21,7 +21,6 @@ if num % 2 == 0:
 
 # challenge 4
 
-
 num1 = float(input("Enter number 1:"))
 num2 = float(input("Enter number 2:"))
 
