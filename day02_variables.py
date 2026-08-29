@@ -18,5 +18,18 @@ num = int(input("Enter a number:"))
 
 if num % 2 == 0:
     print("The number is even")
-else:
-    print("The number is odd")
+
+# challenge 4
+
+
+num1 = float(input("Enter number 1:"))
+num2 = float(input("Enter number 2:"))
+
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+print("Reminder:", num1 % num2)
+
+# Challenge 5
+
