@@ -32,3 +32,10 @@ print("Reminder:", num1 % num2)
 
 # Challenge 5
 
+cel = int(input("Enter the celsius:"))
+far = (cel * 9 / 5) + 32
+
+print("Fahrenheit:", far)
+
+# Challenge 6
+
