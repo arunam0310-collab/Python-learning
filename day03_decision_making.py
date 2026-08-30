@@ -18,6 +18,18 @@ print ("Odd")
 
 # Challenge 3
 
+age=int(input ("Enter the age:"))
+if age<=12:
+print("Child")
+elif age<=19:
+print("Teenager")
+elif age<=59:
+print("Adult")
+else:
+print ("Senior")
+
+# Challenge 4
+
 mark=int(input ("Enter a number:"))
 if mark>=90:
 print("A Grade")
