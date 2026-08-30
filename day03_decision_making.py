@@ -91,3 +91,13 @@ if year%4==0:
    print("Leap year")
 else:
    print("Not a leap year")
+
+# Challenge 10
+ 
+name= input("Enter the name:")
+mark=int( input("Enter the mark:"))
+att_per=int(input("Enter the attendance percentage :"))
+if mark>=35 and att_per>=75:
+   print(name, "-Pass")
+else:
+   print (name, "-Fail")
