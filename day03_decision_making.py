@@ -18,6 +18,15 @@ print ("Odd")
 
 # Challenge 3
 
+u_name= input("Enter the username:")
+p_word=input("Enter the password:")
+if u_name== "admin" and p_word=="1234":
+print(""Login successful "")
+else:
+print(""Invalid username or password"")
+
+# Challenge 4
+
 age=int(input ("Enter the age:"))
 if age<=12:
 print("Child")
