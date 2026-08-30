@@ -18,7 +18,6 @@ else:
 
 # Challenge 3
 
-
 num=int(input("Enter a number:"))
 if num>=1 and num<=10:
    print("Number is between 1 and 10")
@@ -26,6 +25,9 @@ elif num>=11 and num<=20:
    print("Number is between 11 and 20")
 else:
    print("Number is outside the range")
+
+# Challenge 4
+
 u_name= input("Enter the username:")
 p_word=input("Enter the password:")
 if u_name== "admin" and p_word=="1234":
@@ -33,7 +35,7 @@ if u_name== "admin" and p_word=="1234":
 else:
    print(""Invalid username or password"")
 
-# Challenge 4
+# Challenge 5
 
 age=int(input ("Enter the age:"))
 if age<=12:
@@ -45,7 +47,7 @@ elif age<=59:
 else:
    print ("Senior")
 
-# Challenge 4
+# Challenge 6
 
 mark=int(input ("Enter a number:"))
 if mark>=90:
@@ -59,7 +61,7 @@ elif mark >=35:
 else:
    print("Fail")
 
-# Challenge 4
+# Challenge 7
 
 num1=int(input("Enter the first number:"))
 num2=int(input ("Enter the second number:"))
@@ -70,7 +72,7 @@ elif num2>num1:
 else:
    print ("Two numbers are equal")
 
-# Challenge 5
+# Challenge 8
 
 unit=int(input("Enter the unit:"))
 if unit<=100:
@@ -81,3 +83,5 @@ elif unit<=300:
    print("High usage")
 else:
    print("Very high usage")
+
+# Challenge 9
