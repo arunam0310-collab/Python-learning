@@ -18,6 +18,14 @@ else:
 
 # Challenge 3
 
+
+num=int(input("Enter a number:"))
+if num>=1 and num<=10:
+   print("Number is between 1 and 10")
+elif num>=11 and num<=20:
+   print("Number is between 11 and 20")
+else:
+   print("Number is outside the range")
 u_name= input("Enter the username:")
 p_word=input("Enter the password:")
 if u_name== "admin" and p_word=="1234":
