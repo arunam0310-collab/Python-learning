@@ -19,7 +19,15 @@ else:
 
 # Challenge 3
 
+age=int(input ("Enter a number:"))
+att_per=int(input ("Enter a Attendance percentage:"))
+if age>=18 and att_per>=75:
+   print ("Eligible")
+else:
+   print (" Not eligible ")
 day=input("Enter a day:")
+
+# Challenge 4
 if day=="Sunday" or day=="Saturday":
    print("It's a weekend!")
 else:
