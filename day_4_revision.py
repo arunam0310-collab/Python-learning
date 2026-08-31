@@ -18,3 +18,11 @@ else:
    print (name,"-Fail")
 
 # Challenge 3
+
+day=input("Enter a day:")
+if day=="Sunday" or day=="Saturday":
+   print("It's a weekend!")
+else:
+   print(" It's a weekday!")
+
+# Challenge 4
