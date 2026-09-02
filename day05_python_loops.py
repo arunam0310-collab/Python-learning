@@ -27,3 +27,11 @@ while i >= 1:
     i = i - 1
 
 # Challenge 5
+
+num = int(input("Enter a number:"))
+total = 0
+
+for i in range(1, num + 1):
+    total = total + i
+
+print("Sum =", total)
