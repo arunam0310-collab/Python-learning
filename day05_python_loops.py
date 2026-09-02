@@ -9,3 +9,13 @@ for i in range(2, 21, 2):
     print(i)
 
 # Challenge 3
+
+num = int(input("Enter a number:"))
+i = 1
+
+while i <= 10:
+    mul = num * i
+    print(num, "*", i, "=", mul)
+    i = i + 1
+
+# Challenge 4
