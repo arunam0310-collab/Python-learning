@@ -19,3 +19,11 @@ while i <= 10:
     i = i + 1
 
 # Challenge 4
+
+i = 10
+
+while i >= 1:
+    print(i)
+    i = i - 1
+
+# Challenge 5
