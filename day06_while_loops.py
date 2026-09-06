@@ -16,3 +16,15 @@ while i <= 10:
     i = i + 1
 
 # Challenge 3
+
+num = int(input("Enter a number:"))
+i = 1
+sum = 0
+
+while i <= num:
+    sum = sum + i
+    i = i + 1
+
+print("Sum =", sum)
+
+# Challenge 4
