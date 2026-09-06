@@ -14,3 +14,5 @@ while i <= 10:
     mul = num * i
     print(num, "×", i, "=", mul)
     i = i + 1
+
+# Challenge 3
